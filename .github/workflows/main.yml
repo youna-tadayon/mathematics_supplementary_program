@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://youna-tadayon:$HF_TOKEN@huggingface.co/spaces/youna-tadayon/mathematics-supplementary-program main
+        run: git push --force  https://youna-tadayon:$HF_TOKEN@huggingface.co/spaces/youna-tadayon/mathematics-supplementary-program main
